@@ -18,7 +18,7 @@ select_all_bears_names_and_ages_that_are_alive_and_order_youngest_to_oldest = ""
         bears.name,
         bears.age
     FROM bears
-    WHERE bears.alive = 1
+    WHERE bears.alive = True
     ORDER BY bears.age ASC
 """
 
